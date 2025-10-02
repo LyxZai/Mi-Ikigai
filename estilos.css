@@ -1,0 +1,89 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #f7f0a3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.815);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.Yugioh1y2-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.text-left {
+    flex: 1;
+    text-align: left;
+}
+.text-right {
+    flex: 1;
+    text-align: right;
+}
+.image-right {
+    flex: 40;
+    margin-left: 20px;
+}
+
+.image-responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-grid img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: rgb(44, 60, 136);
+    text-align: center;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+}
+
+.menu li a:hover {
+    background: #e5e5e5;
+}
